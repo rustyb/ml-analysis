@@ -5,6 +5,9 @@
  */
 module.exports = {
   environment: 'production',
-  // consoleMessage: logo,
-  API_URL: 'http://localhost:4000'
+  API_URL: 'http://localhost:4000' || process.env.API_URL,
+  mapbox: {
+    token: process.env.MAPBOX_TOKEN,
+    baseStyle: 'mapbox://styles/mapbox/outdoors-v10'
+  }
 };
