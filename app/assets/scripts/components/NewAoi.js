@@ -1,7 +1,7 @@
 import React, { PropTypes as T } from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
-import Joi from 'joi';
+// import Joi from 'joi';
 import reqwest from 'reqwest';
 
 import MapComponent from './Map';
